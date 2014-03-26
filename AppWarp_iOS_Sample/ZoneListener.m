@@ -41,7 +41,7 @@
         NSLog(@"roomEvent result = %i",roomEvent.result);
         NSLog(@"room id = %@",roomData.roomId);
         [helper setRoomId:roomData.roomId];
-        [helper updateResponseLabel:[NSString stringWithFormat:@"Success....roomId=%@",roomData.roomId]];
+        [helper updateResponseLabel:[NSString stringWithFormat:@"Success with roomId=%@ ",roomData.roomId]];
         [helper getLiveRoomInfo];
     }
     else
