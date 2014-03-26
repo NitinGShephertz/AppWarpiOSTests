@@ -108,7 +108,7 @@
 
 
 -(IBAction)createRoomButtonAction:(id)sender {
-    
+    NSLog(@"%s",__FUNCTION__);
     NSString *game = @"Apple";
     NSDictionary *properties = @{
                                  @"host":[self getUsername],
